@@ -1,0 +1,69 @@
+.summary-content-container-parent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.summary-content-container-scroll {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.summary-content-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary-content-item-child {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary-header-container {
+    /* margin-top: 20px; */
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 11pt;
+}
+
+.summary-action-container {
+    /* height: 30px; */
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 5px 15px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.summary-content-item-table {
+    width: 100%;
+}
+
+.summary-select-wells-apply-btn {
+    background-color: white;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #9e9e9e;
+    font-size: 10pt;
+}
+
+.summary-select-wells-apply-btn:hover {
+    background-color: white;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #000000;
+}

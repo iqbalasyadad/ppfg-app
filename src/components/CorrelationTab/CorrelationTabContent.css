@@ -1,0 +1,58 @@
+.correlation_pp-content-container-parent {
+    background-color: #fffbf4;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.correlation_pp-content-container-scroll {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+.correlation_pp-content-item {
+    height: 100%;
+    white-space: nowrap;
+}
+.correlationpp-plot-container {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+}
+.correlationpp-plot-plotly-container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    /* overflow-y: scroll; */
+}
+.cppp-plotly-component {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.correlationpp-plot-desc-container {
+    width: 100%;
+    bottom: 0px;
+}
+
+.cppp-desc-table-table, .cppp-desc-table-tr, .cppp-desc-table-td {
+    background-color: #faf4e9;
+    width: 100%;
+    font-size: 8pt;
+    text-align: center;
+    border: 1px solid;
+}
+
+.cppp-download-btn {
+    background-color: white;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #9e9e9e;
+}
+
+.cppp-download-btn:hover {
+    background-color: white;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #000000;
+}

@@ -1,0 +1,53 @@
+.combined_pp-content-container-parent {
+    background-color: #FFF3DF;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.combined_pp-content-container-scroll {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.combined_pp-content-item {
+    height: 100%;
+    width: 100%;
+    /* white-space: nowrap; */
+}
+.combinedpp-plot-container {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+}
+.combinedpp-plot-plotly-container {
+    height: calc(100% - 30px);
+    width: 100%;
+    border: 1px solid;
+    /* overflow-y: scroll; */
+}
+.combinedpp-plot-desc-container {
+    width: 100%;
+    bottom: 0px;
+}
+
+.combinedpp-desc-table-table, .combinedpp-desc-table-tr, .combinedpp-desc-table-td {
+    width: 100%;
+    font-size: 8pt;
+    text-align: center;
+    border: 1px solid;
+}
+
+.combinedpp-download-btn {
+    background-color: white;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #9e9e9e;
+}
+
+.combinedpp-download-btn:hover {
+    background-color: white;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #000000;
+}

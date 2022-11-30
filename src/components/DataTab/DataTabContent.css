@@ -1,0 +1,66 @@
+.data-content-container-parent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.data-content-container-scroll {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.data-content-item {
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.data-content-general-filter-container {
+    /* height: 30%; */
+    width: 100%;
+    display: flex;
+}
+.data-content-well-filter-container {
+    /* height: 100%; */
+    width: 25%;
+    /* border: 1px solid; */
+}
+.data-content-file-type-filter-container {
+    /* height: 100%; */
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.data-content-apply-filter-container {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-content-result-file-container {
+    width: 100%;
+    /* border: 1px solid;    */
+}
+
+.data-content-download-result-file-container {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-filter-submit-btn {
+    background-color: white;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #9e9e9e;
+    font-size: 10pt;
+}
+
+.data-filter-submit-btn:hover {
+    background-color: white;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #000000;
+}

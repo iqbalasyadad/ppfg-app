@@ -1,0 +1,27 @@
+.event-content-container-parent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event-content-container-scroll {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.event-content-item {
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.event-content-item-table {
+    margin-top: 20px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
